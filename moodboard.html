@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <title>Stampmark · Moodboard</title>
+  <link rel="stylesheet" href="moodboard.css" />
+</head>
+<body>
+  <div id="viewport">
+    <div id="canvas"></div>
+  </div>
+
+  <header id="topbar">
+    <div class="brand">✦ Stampmark</div>
+    <div class="tools">
+      <span id="count" class="pill">0 estampas</span>
+      <button id="fit" class="btn">Encajar</button>
+      <button id="reset" class="btn">Centrar</button>
+    </div>
+  </header>
+
+  <div id="empty" class="empty">
+    <div class="empty-card">
+      <div class="big">🖼️</div>
+      <h2>Tu moodboard está vacío</h2>
+      <p>Abre el popup de Stampmark en cualquier página y pulsa <b>Capturar estampa</b>.</p>
+    </div>
+  </div>
+
+  <div id="zoomhint" class="zoomhint">Arrastra para mover · Rueda para zoom · Click en una estampa para abrir el sitio</div>
+
+  <script src="moodboard.js"></script>
+</body>
+</html>
